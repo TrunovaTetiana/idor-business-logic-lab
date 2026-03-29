@@ -84,9 +84,9 @@ Pay attack
 # 👩‍💻 Author
 
 Tatiana Trunova  
-Junior Application Security / Pentester (in progress)
+Junior Application Security / Pentester (in progress) 
 
-
+---
 
 # 🧪 Detailed Vulnerability Report (Bug Bounty Style)
 
