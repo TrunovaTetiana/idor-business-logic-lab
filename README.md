@@ -9,6 +9,14 @@ Tested in a custom vulnerable shop lab.
 
 ---
 
+---
+
+## 🔐 Additional Case
+
+- [Stored XSS — Public Comments (Unauthenticated)](stored-xss-comments/README.md)
+
+---
+
 # 🔴 1. IDOR — Access to Other Users' Data
 
 ## ✅ Authorized request (baseline)
