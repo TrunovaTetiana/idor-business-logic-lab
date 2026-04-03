@@ -51,22 +51,22 @@ The application uses innerHTML, which allows execution of arbitrary HTML/JavaScr
 ## 📸 Proof of Concept
 
 ### 1. Payload Injection
-![Payload Injection](images/02_payload_injection.png)
+![Payload Injection](screenshots/02_payload_injection.png)
 
 ---
 
 ### 2. DOM Source → Sink
-![DOM Source Sink](images/03_dom_source_sink.png)
+![DOM Source Sink](screenshots/03_dom_source_sink.png)
 
 ---
 
 ### 3. DOM Execution
-![DOM Execution](images/04_dom_execution.png)
+![DOM Execution](screenshots/04_dom_execution.png)
 
 ---
 
 ### 4. Alert Execution (Impact)
-![Alert DOM](images/05_alert_dom.png)
+![Alert DOM](screenshots/05_alert_dom.png)
 
 ---
 
@@ -74,12 +74,17 @@ The application uses innerHTML, which allows execution of arbitrary HTML/JavaScr
 
 <iframe src=javascript:alert(1)>
 
-![Iframe Payload](images/06_payload_iframe.png)
+![Iframe Payload](screenshots/06_payload_iframe.png)
 
 ---
 
-### 6. Burp Verification
-![Burp Request](images/07_burp_request.png)
+### 6. Burp Request
+![Burp Request](screenshots/07_burp_request.png)
+
+---
+
+### 7. Burp Response (Payload Reflected)
+![Burp Response](screenshots/08_burp_response.png)
 
 ---
 
@@ -108,17 +113,17 @@ GET /search.php?q=
 ## 📸 Proof of Concept
 
 ### 1. Baseline Response
-![Baseline](images/09_reflected_baseline.png)
+![Baseline](screenshots/09_reflected_baseline.png)
 
 ---
 
 ### 2. Payload Injection
-![Payload](images/10_reflected_payload.png)
+![Payload](screenshots/10_reflected_payload.png)
 
 ---
 
 ### 3. Alert Execution
-![Alert](images/11_reflected_alert.png)
+![Alert](screenshots/11_reflected_alert.png)
 
 ---
 
